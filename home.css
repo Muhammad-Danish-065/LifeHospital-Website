@@ -1,0 +1,48 @@
+.container-5{
+  height: 0%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.text{
+  text-align: center;
+}
+.dani{
+  text-align: center;
+}
+/* Style adjustments for cards */
+.card {
+  transition: transform 0.2s;
+  height: 100%; /* Ensure cards have equal height */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  text-align: left; /* Ensure card text alignment */
+  height: 100%; /* Ensure card bodies have equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit text to 3 lines */
+  -webkit-box-orient: vertical;
+}
+
+/* Optional: Custom card shadow */
+.shadow-sm {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container-fluid{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+}
